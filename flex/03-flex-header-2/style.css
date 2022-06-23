@@ -23,6 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin-left: 15px;
 }
 
 .logo {
@@ -39,7 +40,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  display: flex;
 }
 
 a {
@@ -51,6 +51,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  flex: 1;
+  flex: 1 1 0;
   gap: 8px;
+  margin-left: -30px;
 }
